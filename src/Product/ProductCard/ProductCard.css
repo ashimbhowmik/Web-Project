@@ -1,3 +1,23 @@
+.fl2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1320px;
+  margin: 0 auto;
+  gap: 35px;
+}
+.heee {
+  text-align: center;
+  padding: 10px;
+  box-shadow: 2px 2px 4px 5px #ccc;
+  width: 200px;
+  margin: 0 auto;
+}
+.div-cc {
+  margin-bottom: 40px;
+}
+.hhh {
+  text-align: center;
+}
 .mg22 {
   width: 300px;
   height: 300px;
@@ -11,6 +31,7 @@
   border-radius: 15px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 40px;
 }
 .h1-tag {
   position: relative;

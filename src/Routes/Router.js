@@ -24,12 +24,11 @@ export const routes = createBrowserRouter([
       {
         path: "/product",
         element: <Product></Product>,
-        loader: () => fetch("http://localhost:5000/productA"),
       },
       {
         path: "/review",
         element: <Review></Review>,
-        loader: () => fetch("http://localhost:5000/reviews"),
+        loader: () => fetch("https://server-project-eta.vercel.app/reviews"),
       },
       {
         path: "/faq",
