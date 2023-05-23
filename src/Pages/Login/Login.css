@@ -12,7 +12,7 @@
   width: 60%;
 }
 .contaner2 {
-  width: 40%;
+  width: 30%;
 }
 form label {
   font-size: 18px;
@@ -27,8 +27,8 @@ form label {
 }
 
 .img-container img {
-  width: 650px;
-  height: 550px;
+  width: 450px;
+  height: 400px;
 }
 .img {
   position: absolute;

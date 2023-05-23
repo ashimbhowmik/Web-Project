@@ -58,7 +58,7 @@ const Login = () => {
             id="form-desgin"
             onSubmit={handleSubmit}
           >
-            <h1>SignUp</h1>
+            <h1>LogIn</h1>
             <section className="form-content1">
               <h3>Personal</h3>
               <div className="">
@@ -87,40 +87,7 @@ const Login = () => {
                 />
               </div>
             </section>
-            <section className="">
-              <h3>Contact</h3>
-              <div className="">
-                <label htmlFor="phone">Phone</label>
-                <br />
 
-                <input
-                  type="tel"
-                  name="phone"
-                  id="phn"
-                  placeholder="phone number"
-                />
-              </div>
-              <div className="">
-                <label htmlFor="address">Date of Birth</label>
-                <br />
-                <input
-                  type="date"
-                  name="address"
-                  id="date"
-                  placeholder="address"
-                />
-              </div>
-              <div className="">
-                <label htmlFor="address">Address</label>
-                <br />
-                <input
-                  type="text"
-                  name="address"
-                  id="address"
-                  placeholder="address"
-                />
-              </div>
-            </section>
             <input
               type="submit"
               value="SignUp"

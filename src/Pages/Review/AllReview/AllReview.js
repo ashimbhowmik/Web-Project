@@ -24,7 +24,6 @@ const AllReview = ({ review }) => {
         <div className="r44">
           <p>Rating : {rating} star</p>
           <div className="r4">
-            <button className="btn456">Edit</button>
             <button className="btn456">Delete</button>
           </div>
         </div>
