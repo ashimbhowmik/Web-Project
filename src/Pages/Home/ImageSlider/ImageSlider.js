@@ -1,22 +1,17 @@
 import React from "react";
 import "../ImageSlider/ImageSlider.css";
-import img1 from "../../../assets/images/banner/Engagment.jpg";
+import img1 from "../../../assets/images/banner/gh-040122-best-mosquito-repellant-1648834942.png";
+import img3 from "../../../assets/images/banner/mos.jpg";
 
 import SimpleImageSlider from "react-simple-image-slider";
 
 const ImageSlider = () => {
   const sliderImages = [
     {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK4CYIMkdKyc7Y7_8YqgKpN8TZR4EIO5U7urL2v-uwXBNClpGSavhf4FtD5_N6SP3tfLM&usqp=CAU",
-    },
-    {
       url: img1,
     },
     {
-      url: "https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcTnzApyh1ZmbXLBUg_iFRio23hzRyAJfwBRfnVozXdEnu-NK4jFt2_gsYujKf-CbT6Cr_A&usqp=CAU",
-    },
-    {
-      url: "https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcTDnfOIY9gjVyoT4ulMp55roiV5KefqaDByUc0HdD8p3tdpXuwxTaXjhLdyUFeQzZ2ZwE&usqp=CAU",
+      url: img3,
     },
   ];
   return (

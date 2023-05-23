@@ -31,9 +31,6 @@ const Navber = () => {
             </Link>
           </div>
           <div className="nav-3">
-            <Link>
-              <img src={search} alt="" />
-            </Link>
             <Link to="/">
               <img src={user} alt="" />
             </Link>

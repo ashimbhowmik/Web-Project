@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../Login/Login.css";
-import log from "../../assets/images/signup.png";
+import log from "../../assets/images/pos_banner.svg";
 import { Toaster, toast } from "react-hot-toast";
 
 const Login = () => {
@@ -41,13 +41,6 @@ const Login = () => {
     <div className="cont-1">
       <main className="cont2">
         <section className="img-container">
-          <h1>
-            <i>
-              New in My <br />
-              Site ?
-            </i>
-          </h1>
-
           <div className="img">
             <img src={log} alt="" />
           </div>
