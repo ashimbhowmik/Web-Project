@@ -1,0 +1,38 @@
+.faq-container {
+  width: 1320px;
+
+  margin: 0 auto;
+}
+.cont1 {
+  margin-top: 100px;
+}
+.faq-item {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.faq-item.active {
+  background-color: #e0e0e0;
+}
+
+.faq-question {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.faq-answer {
+  margin-top: 8px;
+}
+.cont34 {
+  display: flex;
+  gap: 20px;
+}
+.cont-img {
+  width: 50%;
+}
+.cont-div {
+  width: 50%;
+}

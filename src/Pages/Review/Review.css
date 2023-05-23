@@ -1,0 +1,74 @@
+.header {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.cont12 {
+  width: 1320px;
+  margin: 0 auto;
+}
+.cont13 {
+  margin-top: 50px;
+}
+.w1 {
+  padding: 60px;
+  background-color: black;
+}
+.w2 {
+  display: flex;
+  gap: 50px;
+}
+.w2 input {
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+}
+.w2 textarea {
+  padding: 10px;
+}
+
+.w22 {
+  margin-top: 25px;
+}
+.w22 input {
+  width: 46%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.w22 textarea {
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 25px;
+  height: 200px;
+  padding: 10px;
+}
+.btn45 {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  color: whitesmoke;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn45:hover {
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.6s ease-in-out;
+}
+.fl {
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin: auto;
+}
+.hed {
+  margin-top: 80px;
+}
+.hed h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}

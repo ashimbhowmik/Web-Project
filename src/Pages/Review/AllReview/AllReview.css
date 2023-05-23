@@ -1,0 +1,33 @@
+.r1 {
+  box-shadow: 2px 2px 4px 5px #ccc;
+  padding: 20px;
+}
+.r1 img {
+  width: 50px;
+  border-radius: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.r2 {
+  display: flex;
+  border: 1px solid black;
+}
+.r2 h1 {
+  font-size: 16px;
+  margin-right: 80px;
+}
+.r4 {
+  display: flex;
+  justify-content: space-between;
+}
+.btn456 {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  width: 100px;
+  color: whitesmoke;
+  margin-top: 20px;
+  cursor: pointer;
+}
