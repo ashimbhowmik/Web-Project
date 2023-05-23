@@ -6,6 +6,7 @@ import Login from "../Pages/Login/Login";
 import Review from "../Pages/Review/Review";
 import Faq from "../Pages/Faq/Faq";
 import Product from "../Product/Product";
+import About from "../Pages/About/About";
 
 export const routes = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const routes = createBrowserRouter([
       {
         path: "/product",
         element: <Product></Product>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
       },
       {
         path: "/review",

@@ -1,6 +1,6 @@
 import React from "react";
 import "../AllReview/AllReview.css";
-import mam from "../../../assets/images/mam.jpg";
+import mam from "../../../assets/images/dddff.jpg";
 
 const AllReview = ({ review }) => {
   const { customer, email, rating, message } = review;

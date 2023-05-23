@@ -8,12 +8,15 @@ import img5 from "../assets/images/shd.jpg";
 import img7 from "../assets/images/ohd.jpg";
 import img8 from "../assets/images/jdd.jpg";
 import img9 from "../assets/images/mosoffmain.webp";
+import { Toaster, toast } from "react-hot-toast";
 
 const Product = () => {
+  const notify = () => toast.success("Product Added");
   const [count, setCount] = useState(0);
 
   const increment = () => {
     setCount(count + 1);
+    notify();
   };
 
   return (
@@ -178,6 +181,7 @@ const Product = () => {
           </section>
         </div>
       </section>
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 };

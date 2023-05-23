@@ -22,7 +22,9 @@ const Navber = () => {
             <Link to="/product" className="link">
               Product
             </Link>
-            <Link className="link">About</Link>
+            <Link to="/about" className="link">
+              About
+            </Link>
             <Link to="/faq" className="link">
               Faq
             </Link>
