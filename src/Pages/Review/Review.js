@@ -94,7 +94,9 @@ const Review = () => {
         </section>
       </section>
       <section className="hed">
-        <h1>All review here</h1>
+        <i>
+          <h1>All review here</h1>
+        </i>
         <div className="fl">
           {allReviews.map((reviewe) => (
             <AllReview key={reviewe._id} review={reviewe} />

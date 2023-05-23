@@ -1,6 +1,7 @@
 .r1 {
   box-shadow: 2px 2px 4px 5px #ccc;
   padding: 20px;
+  height: 250px;
 }
 .r1 img {
   width: 50px;
@@ -11,23 +12,47 @@
 }
 .r2 {
   display: flex;
-  border: 1px solid black;
 }
 .r2 h1 {
   font-size: 16px;
-  margin-right: 80px;
+  margin-right: 25px;
+  position: relative;
+  top: -15px;
+}
+.p {
+  font-size: 12px;
+
+  position: relative;
+  top: -65px;
+  left: 13px;
 }
 .r4 {
   display: flex;
   justify-content: space-between;
 }
 .btn456 {
-  padding: 15px;
+  padding: 12px;
   border-radius: 10px;
   background-color: red;
   border: none;
   width: 100px;
   color: whitesmoke;
   margin-top: 20px;
+  position: relative;
+  top: -10px;
   cursor: pointer;
+}
+.r33 {
+  margin-top: 10px;
+  position: relative;
+  top: -60px;
+}
+.r33 p {
+  position: relative;
+  top: -10px;
+}
+.r44 {
+  position: relative;
+  top: -70px;
+  right: 1px;
 }

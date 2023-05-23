@@ -13,15 +13,15 @@ const AllReview = ({ review }) => {
             <img src={mam} alt="" />
             <div>
               <h1>{customer}</h1>
-              <p>{email}</p>
+              <p className="p">{email}</p>
             </div>
           </div>
         </div>
-        <div>
+        <div className="r33">
           <h3>Review</h3>
           <p>{message}</p>
         </div>
-        <div>
+        <div className="r44">
           <p>Rating : {rating} star</p>
           <div className="r4">
             <button className="btn456">Edit</button>

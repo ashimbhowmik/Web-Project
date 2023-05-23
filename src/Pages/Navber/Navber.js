@@ -19,7 +19,9 @@ const Navber = () => {
             <Link to="/home" className="link">
               Home
             </Link>
-            <Link className="link">Product</Link>
+            <Link to="/product" className="link">
+              Product
+            </Link>
             <Link className="link">About</Link>
             <Link to="/faq" className="link">
               Faq
